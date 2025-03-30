@@ -51,7 +51,7 @@ app.get("/getproducts", async (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-mongoose.connect("mongodb+srv://Vishnu:vishnu%403022@ecommerce.wur4izw.mongodb.net/")
+mongoose.connect("mongodb+srv://akshay:GLfPB0Wlf1h5sEdu@p5ecommerce.rv26pyt.mongodb.net/")
 .then(() =>{
   console.log("Connnected to mongodb");
 }).catch((err)=>{
